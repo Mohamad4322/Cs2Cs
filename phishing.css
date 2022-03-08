@@ -1,0 +1,11 @@
+.container {
+    text-align: center;
+  }
+  
+  #box {  
+    height: 1000px;
+    width: 1500px;
+    background-image: url(phishing.gif);
+    
+    margin: 5px auto;
+  }

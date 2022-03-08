@@ -1,0 +1,152 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.container{
+
+    width: 100%;
+    height: 100vh;
+    background-image: url(bg.gif);
+    background-position:center;
+    background-size:cover;
+    padding-right:8% ;
+    padding-left:8% ;
+    box-sizing: border-box;
+}
+.navbar{
+
+    height: 12%;
+    display: flex;
+    align-items: center;
+
+
+}
+.logo{
+
+    width: 100px;
+    cursor: pointer;
+
+}
+.icon{
+
+    width: 50px;
+    cursor: pointer;
+
+}
+nav{
+    flex: 1;
+    text-align: right;
+    margin: 40px;
+
+
+}
+nav ul li{
+    list-style:none;
+    display: inline-block;
+    margin-left: 60px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+
+}
+.row{
+display: flex;
+height: 88%;
+align-items:center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color:rgb(243, 32, 67);
+    font-size: 100px;
+    
+}
+h2{
+    color:rgb(243, 32, 67);
+    font-size: 100px;
+    
+}
+p{
+    color: #fff;
+    font-size: 17px;
+    line-height: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 5px ;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline:none;
+    margin-top: 200px;
+    margin-right: 600px;
+}
+.card{
+    width:200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15x 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(https://i.pinimg.com/originals/c7/d5/9d/c7d59ddc9346ba8d41f83de6718f7d57.gif);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+
+}
+.c1{
+background-image: url(https://i.pinimg.com/originals/c7/d5/9d/c7d59ddc9346ba8d41f83de6718f7d57.gif);
+}
+.c2{
+    background-image: url(https://i.pinimg.com/originals/c7/d5/9d/c7d59ddc9346ba8d41f83de6718f7d57.gif);
+}
+.c3{
+ background-image: url(https://i.pinimg.com/originals/c7/d5/9d/c7d59ddc9346ba8d41f83de6718f7d57.gif);
+}
+ .c4{
+background-image: url(https://avatarfiles.alphacoders.com/977/97711.gif);
+ }
+
+ .card:hover{
+transform: translateY(-10px);
+
+ }
+
+ h5{
+     text-align: center;
+    color:white;
+    text-shadow: 0 0 5px #999;
+    font-size: 25px;
+
+
+}
+
+.card p{
+text-shadow: 0 0 15px #000;
+font-size: 10 px;
+
+
+}
+    
+
+
+
+
+
+
+
+
+
